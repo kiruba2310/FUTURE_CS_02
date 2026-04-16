@@ -1,0 +1,23 @@
+Delivered-To: victimuser@gmail.com
+Received: by 2002:a05:aa1b:9999:b0:7b8:fake:1111 with SMTP id p1csp2233445xyz;
+        Sun, 21 Apr 2026 11:05:12 -0700 (PDT)
+Received: from unknown-server.ru (unknown-server.ru. [185.225.69.99])
+        by mx.google.com with ESMTPS id g78si2233445qkm.222.2026.04.21.11.05.11
+        for <victimuser@gmail.com>
+        (version=TLS1_2 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 21 Apr 2026 11:05:12 -0700 (PDT)
+Received-SPF: fail (google.com: domain of support@secure-bank.com does not designate 185.225.69.99 as permitted sender) client-ip=185.225.69.99;
+Authentication-Results: mx.google.com;
+       spf=fail
+       dkim=fail
+       dmarc=fail
+Return-Path: <randomuser123@gmail.com>
+Received: from hacked-pc (unknown [10.0.0.5])
+        by unknown-server.ru (Postfix) with ESMTP id 6677889900
+        for <victimuser@gmail.com>; Sun, 21 Apr 2026 18:05:09 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; d=secure-bank.com; s=selectorX;
+From: "Bank Support" <support@secure-bank.com>
+To: victimuser@gmail.com
+Subject: URGENT: Verify Your Bank Account Immediately
+Date: Sun, 21 Apr 2026 18:05:08 +0000
+Message-ID: <6677889900@unknown-server.ru>

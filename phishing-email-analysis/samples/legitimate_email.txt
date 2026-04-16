@@ -1,0 +1,23 @@
+Delivered-To: userdemo@gmail.com
+Received: by 2002:a17:906:abcd:b0:2f3:efgh:5678 with SMTP id z9csp7654321pjb;
+        Tue, 16 Apr 2026 08:45:10 -0700 (PDT)
+Received: from mail.company.org (mail.company.org. [198.51.100.10])
+        by mx.google.com with ESMTPS id b23si7654321qka.456.2026.04.16.08.45.09
+        for <userdemo@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 16 Apr 2026 08:45:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of alert@company.org designates 198.51.100.10 as permitted sender) client-ip=198.51.100.10;
+Authentication-Results: mx.google.com;
+       spf=pass
+       dkim=pass
+       dmarc=pass
+Return-Path: <alert@company.org>
+Received: from smtp.company.org (smtp.company.org [198.51.100.20])
+        by mail.company.org (Postfix) with ESMTP id 987654321
+        for <userdemo@gmail.com>; Tue, 16 Apr 2026 15:45:08 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; d=company.org; s=selector2;
+From: "Company Alerts" <alert@company.org>
+To: userdemo@gmail.com
+Subject: Security Notification – Account Activity
+Date: Tue, 16 Apr 2026 15:45:07 +0000
+Message-ID: <0987654321@mail.company.org>
